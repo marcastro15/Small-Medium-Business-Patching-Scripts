@@ -16,8 +16,11 @@ Requirements/Knowledge:
 4. MS Scheduling System
 5. Administrative Privilege
 
-Pre-requisites: Set the following before running.
+Pre-requisites: Set the following before running:
+------------------------------------------------
 1.  Set-ExecutionPolicy RemoteSigned
+2.  Must have administrative rights on the remote machine being patched (local admin)
+3.  For security, you don't want the user to patch their systems for security reasons. Disable the users' ability to change their systems. This is called security control. Users must have only "Standard" user privilege to prevent them from making any changes to their systems.
 
 Running:
 --------
