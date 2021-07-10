@@ -15,6 +15,8 @@ Requirements/Knowledge:
 3. Basic Network Knowledge (Configurations)
 4. MS Scheduling System
 5. Administrative Privilege
+6. Configure localhost network: c:\windows\system32\drivers\etc\hosts to make an entry of your IP(s) to be patched.
+
 
 Pre-requisites: Set the following before running:
 ------------------------------------------------
