@@ -45,3 +45,5 @@ You can update the scripts to tailor your needs on the remote computer.
 Future Work:
 ------------
 This program could be expanded to monitor and tailor the patches to specific system. Currently, it would patch the systems found in the Microsoft server; it does not do any filtering which patches to apply. It is important to descriminate which patches are needed as not to break the the applications running in the system. There are patches that many break the applications current program. In addition, all the running taskings should be logged appropriately with email or any messaging system to the administrators.
+
+Note that you can add other systems too besides Windows environment.
