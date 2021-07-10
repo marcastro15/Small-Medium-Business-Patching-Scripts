@@ -34,9 +34,11 @@ Running:
 1. Note that you can set this one up to run in scheduler mode.
 2. Warning: You can't run this command remotely for security reasons. Microsoft disabled it recently on new Powershell version - "Install-WindowsUpdate -install -AcceptAll -IgnoreReboot". The workaround is to create task scheduler that you can call to execute remotely. You may create a scheduler task with the following powershell command on the remote computer:
 
-Install-Module PSWindowsUpdate
-Get-WindowsUpdate
-Install-WindowsUpdate
+Install-Module PSWindowsUpdate,
+Get-WindowsUpdate,
+Install-WindowsUpdate,
+
+You can update the scripts to tailor your needs on the remote computer.
 
 
 Future Work:
