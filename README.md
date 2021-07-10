@@ -26,6 +26,7 @@ Pre-requisites: Set the following before running (Local/Remote Machine)
 4. Configure MS Defender Firewall to allow certain applications
 5. Allow the local machine to accept remote connection
 6. Execute: "winrm quickconfig" to enable remote request
+7. Local Machine: Run the following "Set-Item WSMan:\localhost\Client\TrustedHosts -Value "RemoteComputer, RemoteComputer2, etc" to add trusted host.
 
 Running:
 --------
