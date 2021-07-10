@@ -18,17 +18,18 @@ Requirements/Knowledge:
 6. Configure localhost network: c:\windows\system32\drivers\etc\hosts to make an entry of your IP(s) to be patched.
 
 
-Pre-requisites: Set the following before running:
+Pre-requisites: Set the following before running (Local/Remote Machine)
 ------------------------------------------------
 1.  Set-ExecutionPolicy RemoteSigned
 2.  Must have administrative rights on the remote machine being patched (local admin)
 3.  For security, you don't want the user to patch their systems for security reasons. Disable the users' ability to change their systems. This is called security control. Users must have only "Standard" user privilege to prevent them from making any changes to their systems.
 4. Configure MS Defender Firewall to allow certain applications
 5. Allow the local machine to accept remote connection
+6. Execute: "winrm quickconfig" to enable remote request
 
 Running:
 --------
-./win_updates.ps
+./win_updates.ps1
 
 Note that you can set this one up to run in scheduler mode.
 
