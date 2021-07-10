@@ -32,6 +32,8 @@ Running:
 ./win_updates.ps1
 
 Note that you can set this one up to run in scheduler mode.
+Warning: You can't run this command remotely for security reasons. Microsoft disabled it recently on new Powershell version - "Install-WindowsUpdate -install -AcceptAll -IgnoreReboot". The workaround is to create task scheduler that you can call to execute remotely.
+
 
 Future Work:
 ------------
